@@ -24,7 +24,7 @@ Hey There, {}
 🔂 Convert to <a href="https://metaurls.in/member/tools/bookmarklet">MetaUrls</a>
 ©️Powered By @MetaUrlsOfficial 
 </b>"""
-start_button = [[Button.url("Join Channel ♥️", "t.me/A2z_tech"), Button.inline("About Bot 🤖", "abt")],
+start_button = [[Button.url("Join Channel ♥️", "t.me/MetaUrlsOfficial"), Button.inline("About Bot 🤖", "abt")],
                 [Button.inline("Connect To Shortner 🔗", 'api')]]
 import re
 from a import *

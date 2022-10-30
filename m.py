@@ -59,9 +59,7 @@ async def welcome(e):
 
     if stype:
         if stype == 1:
-            domain = "Shorturllink.in"
-        else:
-            domain = "Playdisk.xyz"
+            domain = "metaurls.in"
         await api_logger(chat.id, api_key, stype)
         await client.edit_message(mess,
                                   f"<b>Account Connected Sucessfully ✅\n\nAccount: {username}\nShortner: {domain}</b>")
@@ -116,9 +114,7 @@ async def api(e):
 
     if stype:
         if stype == 1:
-            domain = "Shorturllink.in"
-        else:
-            domain = "Playdisk.xyz"
+            domain = "metaurls.in"
         await api_logger(chat.id, api_key, stype)
         await client.edit_message(mess, f"<b>Account Connected Sucessfully ✅\n\nShortner: {domain}</b>")
     else:

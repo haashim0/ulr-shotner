@@ -3,7 +3,7 @@ import os
 APP_ID = os.environ.get("APP_ID", "14505719")
 API_HASH = os.environ.get("API_HASH", "620f0a2aa2cd1474a4953619b3e3643d")
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "5669306246:AAFlikdRsxxLFdYLgelQyqb0TklW_c6zWX0")
-DB_URI = os.environ.get("DB_URI", "mongodb+srv://Kd:Kd@cluster0.95kbq.mongodb.net/?retryWrites=true&w=majority")
+DB_URI = os.environ.get("DB_URI", "mongodb+srv://Haashim:Haashim@mfile0.t9hxg.mongodb.net/?retryWrites=true&w=majority")
 
 from f import *
 start_message = """<b>

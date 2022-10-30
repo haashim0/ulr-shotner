@@ -1,0 +1,45 @@
+{
+    "name": "Link Shortener Bot",
+    "description": "MDisk wala...",
+    "keywords": [
+        "telegram",
+        "Doodstream",
+        "shortner"
+    ],
+    "website": "https://github.com/Amul-jat/Doodstreambot",
+    "repository": "https://github.com/Amul-jat/Doodstreambot",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Your bot token (must add)",
+            "value": "5145465332:AAEwPXsSkZ8F6nCVjplgy1Xq8EBrVcQ8yDA"
+        },
+        "API_ID": {
+            "description": "Get this value from https://my.telegram.org",
+            "value": "7626510"
+        },
+        "API_HASH": {
+            "description": "Get this value from https://my.telegram.org",
+            "value": "ca991bfa07a6ac45e6d5f374c84ab05c"
+        },
+        "CUSTOM_FOOTER": {
+            "description": "Enter your Custom Footer",
+            "value": "Join"
+        },
+        "API_KEY": {
+            "description": "Get API key from https://mdiskshortner.link/member/tools/api",
+            "value": "6b0cfeaaba4e63a879c08b769ea5670356630f37"
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}

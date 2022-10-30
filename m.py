@@ -1,19 +1,13 @@
 from f import *
 
-api_button = [[Button.url("du-link.in", "https://du-link.in/member/tools/bookmarklet")],
-              [Button.url("Playdisk.xyz", "https://playdisk.xyz/member/tools/bookmarklet")]]
+api_button = [Button.url("MetaUrls.in", "https://shorturllink.in/member/tools/bookmarklet")]
 
 about_text = """<b>
-
-
-
-🤖 Name :  Shorurllink Link Convertor
-
+🤖 Name :  MetaUrls.in Link Convertor
 🔠 Language : Python3
 📚 Library     : Telethon
-🧑🏻‍💻 Developer : @Ziko_0000
-
-©️Powered By @A2z_tech
+🧑🏻‍💻 Developer : @MetaUrls_owner
+©️Powered By @MetaUrlsOfficial
 </b>"""
 
 start_message = """<b>

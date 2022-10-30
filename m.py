@@ -21,9 +21,8 @@ Hey There, {}
 🔀 I Can Convert Link To ShortLink
 💬 Send Me Any Message With Links
 🔗 I Will Shorten All Links In It 
-🔂 Convert to <a href="https://du-link.in/member/tools/bookmarklet">ShortUrlLink</a> & <a href="https://playdisk.xyz/member/tools/bookmarklet">PlayDisk</a>
-
-©️Powered By @A2z_tech
+🔂 Convert to <a href="https://metaurls.in/member/tools/bookmarklet">MetaUrls</a>
+©️Powered By @MetaUrlsOfficial 
 </b>"""
 start_button = [[Button.url("Join Channel ♥️", "t.me/A2z_tech"), Button.inline("About Bot 🤖", "abt")],
                 [Button.inline("Connect To Shortner 🔗", 'api')]]

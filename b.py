@@ -21,19 +21,14 @@ start_button = [[Button.url("Join Channel ♥️", "t.me/MetaUrlsOfficial"), But
                 [Button.inline("Connect To Shortner 🔗", 'api')]]
 
 api_message = """
-<b>Which Shortner Do u Want to Connect To:</b>
+<b> Click the button Connect To:</b>
 """
-api_button = [Button.url("MetaUrls.in", "https://du-link.in/member/tools/bookmarklet"]
+api_button = [Button.url("MetaUrls.in", "https://shorturllink.in/member/tools/bookmarklet")]
 
 about_text = """<b>
-
-
-
-🤖 Name :  Shorurllink Link Convertor
-
+🤖 Name :  MetaUrls.in Link Convertor
 🔠 Language : Python3
 📚 Library     : Telethon
-🧑🏻‍💻 Developer : @MetaUrls_Owner
-
+🧑🏻‍💻 Developer : @MetaUrls_owner
 ©️Powered By @MetaUrlsOfficial
 </b>"""

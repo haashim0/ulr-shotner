@@ -57,6 +57,7 @@ async def welcome(e):
     stype, msg = await api_checker(api_key)
     print(stype)
 
+
     if stype:
         if stype == 1:
             domain = "metaurls.in"

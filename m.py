@@ -61,8 +61,7 @@ async def welcome(e):
         if stype == 1:
             domain = "metaurls.in"
         await api_logger(chat.id, api_key, stype)
-        await client.edit_message(mess,
-                                  f"<b>Account Connected Sucessfully ✅\n\nAccount: {username}\nShortner: {domain}</b>")
+        await client.edit_message(mess, f"<b>Account Connected Sucessfully ✅\n\nShortner: {domain}</b>")
     else:
         await client.edit_message(mess, "<b>Invailid Api Token!!</b>")
 

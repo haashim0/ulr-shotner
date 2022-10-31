@@ -21,7 +21,7 @@ start_button = [[Button.url("Join Channel ♥️", "t.me/MetaUrlsOfficial"), But
 api_message = """
 <b> Click the button Connect To:</b>
 """
-api_button = [Button.url("MetaUrls.in", "https://shorturllink.in/member/tools/bookmarklet")]
+api_button = [Button.url("MetaUrls.in", "https://metaurls.in/member/tools/bookmarklet")]
 
 about_text = """<b>
 🤖 Name :  MetaUrls.in Link Convertor
